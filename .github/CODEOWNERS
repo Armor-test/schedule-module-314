@@ -1,0 +1,39 @@
+# CODEOWNERS file for schedule-module-314
+# Global owners - will be requested for all PRs
+* @Armor-test/unit-cloud @Armor-test/dept-reporting @Armor-test/squad-mobile
+
+# Directory ownership
+/tests/ @Armor-test/team-research @Armor-test/squad-reporting
+/third_party/ @Armor-test/squad-reporting @Armor-test/dept-identity @Armor-test/dept-api
+/helpers/ @Armor-test/grp-search @Armor-test/squad-search
+/views/ @Armor-test/team-logging @Armor-test/squad-cloud
+/shared/ @Armor-test/squad-payments @Armor-test/squad-ml @Armor-test/dept-identity
+/components/ @Armor-test/unit-governance @Armor-test/dept-logging @Armor-test/dept-identity
+/app/ @Armor-test/team-reporting @Armor-test/squad-research @Armor-test/squad-mobile
+/extensions/ @Armor-test/squad-research @Armor-test/dept-billing @Armor-test/dept-security
+/dist/ @Armor-test/dept-data @Armor-test/grp-reporting @Armor-test/grp-storage
+/utils/ @Armor-test/team-reporting @Armor-test/unit-governance @Armor-test/dept-billing
+/assets/ @Armor-test/dept-automation @Armor-test/squad-search
+/security/ @Armor-test/squad-reporting @Armor-test/squad-research @Armor-test/unit-design
+
+# File type ownership
+*.css @Armor-test/grp-reporting @Armor-test/dept-notifications @Armor-test/dept-api
+*.yaml @Armor-test/squad-reporting @Armor-test/unit-design
+*.rb @Armor-test/dept-ui @Armor-test/team-security @Armor-test/grp-payments
+*.proto @Armor-test/unit-test @Armor-test/squad-cloud
+*.go @Armor-test/squad-search @Armor-test/squad-database @Armor-test/dept-api
+*.swift @Armor-test/grp-api @Armor-test/squad-research @Armor-test/dept-notifications
+*.lock @Armor-test/dept-automation @Armor-test/squad-database @Armor-test/team-security
+*.js @Armor-test/dept-identity @Armor-test/team-governance
+*.scala @Armor-test/dept-logging @Armor-test/dept-billing @Armor-test/squad-mobile
+*.php @Armor-test/dept-identity @Armor-test/dept-logging
+*.xml @Armor-test/unit-design @Armor-test/squad-cache
+*.sh @Armor-test/unit-cloud @Armor-test/team-logging
+*.scss @Armor-test/unit-devops @Armor-test/dept-automation
+
+# Security and special files
+Jenkinsfile @Armor-test/ci-team @Armor-test/devops
+.github/workflows/ @Armor-test/ci-team @Armor-test/devops
+Dockerfile @Armor-test/devops @Armor-test/infra
+package.json @Armor-test/dependency-team @Armor-test/security
+/src/**/auth/ @Armor-test/security @Armor-test/auth-team
